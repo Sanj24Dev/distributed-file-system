@@ -3,7 +3,7 @@ import client_lib
 from time import gmtime, strftime
 
 def main():
-    client_id = strftime("\n\n%Y%m%d%H%M%S", gmtime())
+    client_id = strftime("%Y%m%d%H%M%S", gmtime())
     print("Client_id: ",client_id)
     print ("\n")
     client_lib.instructions()
