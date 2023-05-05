@@ -1,9 +1,10 @@
 # file server
 from socket import *
 import os
+import nodes
 
-server_addr = "localhost"
-server_port = 12002
+server_addr = nodes.fileserverB_IP
+server_port = nodes.fileserverB_PORT
 server_socket = socket(AF_INET,SOCK_STREAM)
 server_socket.bind((server_addr, server_port))
 server_socket.listen(10)
