@@ -6,7 +6,7 @@ File sharding in a distributed system requires careful planning and implementati
 
 ## How to run the code 
 ```
-git clone
+git clone https://github.com/Sanj24Dev/distributed-file-system.git
 cd distributed-file-system
 ```
 ### For running the client:
